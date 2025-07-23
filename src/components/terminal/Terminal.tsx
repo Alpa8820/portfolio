@@ -501,7 +501,7 @@ const Terminal: React.FC = () => {
                       <div className='aboutme'><br></br>
                       Hi, nice to meet you. I'm Takumi, blockchain and web developer from Japan.
                         <br></br><br></br>
-                      I started programming when I was 13 and have been programming since then. I got into crypto in 2020 through Ivan On Tech academy. I am passionate about the blockchain industry and believe it has the potential to change the word for better. After learning how blockchain and crypto works I have learned the tech and started participating in hackathons. I have won awards at 3 hackathons in less than a year. I have also contributed to an open source web3 UI library (Web3UIKit). Now I am mostly working on my personal projects.
+                          I started programming when I was 13 and have been programming ever since. I received my Master's degree in Computer Science from Mapua University from March 2012 to June 2017. I started working as a developer at Tech Solution in August 2017, and that's when I got interested in cryptocurrencies. I have a great passion for the blockchain industry and believe that it has the potential to change the world for the better. After learning how blockchain and cryptocurrencies work, I started learning related technologies and participating in hackathons. I won three hackathons in less than a year. I also participated in the development of an open source Web3 UI library (Web3UIKit). I am currently focusing on personal projects.
                         <br></br><br></br>
                       </div>
                     </div>
