@@ -65,4 +65,15 @@
   .navbar {
     padding: 25px 5vw;
   }
+  .navbar.show {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 426px){
+  .navbar .navbarRight .icons {
+    font-size: 1rem !important;
+    margin-top: 8px !important;
+    margin-right: 3px !important;
+  } 
 }
