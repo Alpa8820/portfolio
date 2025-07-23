@@ -48,9 +48,9 @@ const Navbar = () => {
           <a href="#more" rel="noreferrer">
             Skill&nbsp;&nbsp;
           </a>
-          {/* <a href="" rel="noreferrer">
+          <a href="" rel="noreferrer">
             Hackathon
-          </a> */}
+          </a>
           <a href="#project" rel="noreferrer">
             Project&nbsp;&nbsp;
           </a>
