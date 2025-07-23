@@ -11,7 +11,7 @@ const Hackathons = () => {
   const { language } = useLanguage();
 
   return(
-    <div className="bg-hackathons">
+    <div className="bg-hackathons" id="hachathons">
       <p className="heading">{text[language].hackathonsHeading}</p>
       <p className="text">{text[language].hackathonsDescription}</p>
       <div className="hackathons-grid">

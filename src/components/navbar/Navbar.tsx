@@ -10,9 +10,7 @@ import { useLanguage } from "../../contexts/LanguageContext";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
-
   const { language } = useLanguage();
-
   const handleScroll = () => {
     if (window.scrollY > window.innerHeight*0.4) {
       setShowNavbar(true);
@@ -43,19 +41,19 @@ const Navbar = () => {
       <div className="navbarRight">
         <div className="icons new_font">
           <a href="#" rel="noreferrer">
-            Home&nbsp;&nbsp;
+            Home&nbsp;
           </a>
           <a href="#more" rel="noreferrer">
-            Skill&nbsp;&nbsp;
+            Skill&nbsp;
           </a>
-          <a href="" rel="noreferrer">
-            Hackathon
+          <a href="#hachathons" rel="noreferrer">
+            Hackathon&nbsp;
           </a>
           <a href="#project" rel="noreferrer">
-            Project&nbsp;&nbsp;
+            Project&nbsp;
           </a>
           <a href="#terminal" rel="noreferrer">
-            Terminal&nbsp;&nbsp;
+            Terminal&nbsp;
           </a>
           <a href="#contact" rel="noreferrer">
             Contact
