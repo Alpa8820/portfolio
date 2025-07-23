@@ -7,7 +7,7 @@ import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
 
 const About = () => {
-  
+
   // const [isVisible, setIsVisible] = useState<boolean>(true);
 
   const { language } = useLanguage();
@@ -16,8 +16,8 @@ const About = () => {
 
   const getFontSize = () => {
     const width = window.innerWidth;
-    if(width < 450) return "5rem";
-    if(width < 1250) return "6rem";
+    if (width < 450) return "5rem";
+    if (width < 1250) return "6rem";
     return "8rem";
   };
 
@@ -32,8 +32,8 @@ const About = () => {
       return(
         <div className="alert">
           <Heading as="h3" size={getAlertSize()}>
-            💻{"   "}<a href="mailto:tijan@tijan.dev" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xTijan" className="contact-link">Follow Me!</a>
+            💻{"   "}<a href="mailto:alpa26846@gmail.com" className="contact-link">Hire Me!</a>
+            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xTakumi" className="contact-link">Follow Me!</a>
           </Heading>
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
@@ -43,17 +43,14 @@ const About = () => {
     }
   };*/
 
-  return(
+  return (
     <>
-      <div className="bg">
+      <div className="bg" id="about">
         <div className="about-wrapper">
           <div className="about-text">
             <div className="about-title">
-              {/*<Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                {text[language].aboutHi}
-              </Heading>*/}
               <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                <span className="name">👋  Tijan</span>
+                <span className="name">Hi! 👋I am Takumi</span>
               </Heading>
             </div>
             <div className="about-text-desc">
@@ -61,21 +58,21 @@ const About = () => {
             </div>
 
             <div className="icons">
-              <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Alpa8820" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
-              <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
+              <a href="https://twitter.com/Alpa8820" target="_blank" rel="noreferrer">
                 <AiFillTwitterCircle className="icon" />
               </a>
-              <a href="https://t.me/TijanWeb3" target="_blank" rel="noreferrer">
+              <a href="https://t.me/Alpa8820" target="_blank" rel="noreferrer">
                 <BsTelegram className="icon" />
               </a>
-              <a href="mailto:tijan@tijan.dev" target="_blank" rel="noreferrer">
+              <a href="alpa26846@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail className="icon" />
               </a>
             </div>
 
-            <a href="mailto:tijan@tijan.dev">
+            <a href="mailto:alpa26846@gmail.com">
               <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
                 {text[language].contactButton}
               </Button>

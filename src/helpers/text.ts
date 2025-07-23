@@ -32,7 +32,7 @@ export const text = {
     aboutHi: "Hi! 👋",
     aboutIam: "I'am ",
     aboutSkilled: "skilled",
-    aboutText: "from Slovenia with +3 years of experience in blockchain and web development.",
+    aboutText: "from Japan with +8 years of experience in blockchain and web development.",
 
     // others
     contactButton: "Contact Me",

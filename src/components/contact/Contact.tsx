@@ -20,39 +20,27 @@ export type Contact = {
 export const contacts: Contact[] = [
   {
     name: "EMAIL:",
-    info: "tijan@tijan.dev",
+    info: "alpa26846@gmail.com",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:tijan@tijan.dev",
-  },
-  {
-    name: "TWITTER:",
-    info: "@0xTijan",
-    icon: <AiFillTwitterCircle className="contact-icon" />,
-    url: "https://twitter.com/0xTijan",
-  },
-  {
-    name: "TELEGRAM:",
-    info: "@TijanWeb3",
-    icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/TijanWeb3",
+    url: "mailto:alpa26846@gmail.com",
   },
   {
     name: "DISCORD:",
-    info: "Tijan#6804",
+    info: "Takumi#6804",
     icon: <FaDiscord className="contact-icon" />,
     url: "https://discord.com/users/775249998379614238",
   },
   {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "@Takumi",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
+    url: "https://github.com/Alpa8820",
   },
   {
     name: "LOCATION & ZONE:",
-    info: "Slovenia, UTC+1",
+    info: "Japan, UTC+9",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/slovenia",
+    url: "https://www.timeanddate.com/time/zone/Japan",
   },
 ];
 
@@ -61,7 +49,7 @@ const Contact = () => {
   const { language } = useLanguage();
 
   return(
-    <div className="bg-contact">
+    <div className="bg-contact" id="contact">
       <div className="contact-header">
         <p className="heading">{text[language].contactHeading}</p>
         {/*<p className="text">If you have any questions or want to hire me, please contact me:</p>*/}
@@ -84,7 +72,7 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:tijan@tijan.dev">
+        <a href="alpa26846@gmail.com">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
             {text[language].contactButton}
           </Button>

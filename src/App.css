@@ -6,7 +6,9 @@
   --text-dark: #0f111b;
   --text-secondary: #15c0f0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .heading {
   font-size: 4.5rem;
   font-weight: 800;
@@ -16,12 +18,10 @@
   font-size: 2.5rem;
   font-weight: 300;
 }
-
 @media only screen and (max-width: 500px) {
   .heading {
     font-size: 3.5rem;
   } 
-  
   .text {
     font-size: 1.5rem;
   }

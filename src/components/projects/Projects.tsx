@@ -32,7 +32,7 @@ const Projects = () => {
   };
 
   return(
-    <div className="bg-projects">
+    <div className="bg-projects" id="project">
       <p className="heading">{text[language].projectsHeading}</p>
       <p className="text">{text[language].projectsDescription}</p>
       <div className="projects-grid">
@@ -85,7 +85,7 @@ const Projects = () => {
       </button>
       <div>
         <p className="git-hub-text">{text[language].projectsGithubText}</p>
-        <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+        <a href="https://github.com/0xTakumi" target="_blank" rel="noreferrer">
           <button className="git-hub-btn">GitHub</button>
         </a>
       </div>
