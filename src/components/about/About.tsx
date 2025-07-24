@@ -5,6 +5,7 @@ import { BsTelegram, BsChevronDown } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
+import { FaDiscord } from "react-icons/fa";
 
 const About = () => {
 
@@ -62,7 +63,7 @@ const About = () => {
                 <AiFillGithub className="icon" />
               </a>
               <a href="https://twitter.com/Alpa8820" target="_blank" rel="noreferrer">
-                <AiFillTwitterCircle className="icon" />
+                <FaDiscord className="icon" />
               </a>
               <a href="https://t.me/Alpa8820" target="_blank" rel="noreferrer">
                 <BsTelegram className="icon" />
