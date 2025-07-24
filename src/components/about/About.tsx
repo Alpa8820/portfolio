@@ -62,12 +62,9 @@ const About = () => {
               <a href="https://github.com/Alpa8820" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
-              <a href="https://twitter.com/Alpa8820" target="_blank" rel="noreferrer">
-                <FaDiscord className="icon" />
-              </a>
               <a href="https://t.me/Alpa8820" target="_blank" rel="noreferrer">
                 <BsTelegram className="icon" />
-              </a>
+              </a> */}
               <a href="alpa26846@gmail.com" target="_blank" rel="noreferrer">
                 <AiOutlineMail className="icon" />
               </a>
