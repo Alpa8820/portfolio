@@ -8,13 +8,7 @@ import { text } from "../../helpers/text";
 import { FaDiscord } from "react-icons/fa";
 
 const About = () => {
-
-  // const [isVisible, setIsVisible] = useState<boolean>(true);
-
   const { language } = useLanguage();
-
-  // const hide = () => setIsVisible(false);
-
   const getFontSize = () => {
     const width = window.innerWidth;
     if (width < 450) return "5rem";
