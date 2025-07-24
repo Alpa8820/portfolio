@@ -21,29 +21,6 @@ const About = () => {
     if (width < 1250) return "6rem";
     return "8rem";
   };
-
-  /*const getAlertSize = () => {
-    const width = window.innerWidth;
-    if(width < 1275) return "md";
-    return "lg";
-  };
-
-  const Alert = () => {
-    if(isVisible) {
-      return(
-        <div className="alert">
-          <Heading as="h3" size={getAlertSize()}>
-            💻{"   "}<a href="mailto:alpa26846@gmail.com" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xTakumi" className="contact-link">Follow Me!</a>
-          </Heading>
-          <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
-        </div>
-      );
-    }else{
-      return null;
-    }
-  };*/
-
   return (
     <>
       <div className="bg" id="about">
