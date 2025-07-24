@@ -1,11 +1,11 @@
 import React from "react";
 import { Heading, Text, Button } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
-import { BsTelegram, BsChevronDown } from "react-icons/bs";
+import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
+import { BsChevronDown } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
-import { FaDiscord } from "react-icons/fa";
+//import { FaDiscord } from "react-icons/fa";
 
 const About = () => {
   const { language } = useLanguage();
