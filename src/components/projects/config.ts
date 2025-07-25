@@ -54,40 +54,24 @@ export const projectsEn: Project[] = [
     name: "Tic Tac Toe AI",
     description: "A command-line Tic Tac Toe AI game built with Rust. Multiple game modes, including AI algorithms like Minimax and Monte Carlo Tree Search (MCTS).",
     image: TicTacToe,
-    url: "https://github.com/0xAlpa/tic-tac-toe-ai",
-    github: "https://github.com/0xAlpa/tic-tac-toe-ai",
+    url: "https://github.com/Alpa8820/tic-tac-toe-ai",
+    github: "https://github.com/Alpa8820/tic-tac-toe-ai",
     technologies: getSkill(["rust"])
-  },
-  {
-    name: "Web3UIKit",
-    description: "Open-source contributor to the Web3UIKit - Beautiful and lightweight UI components for web3 developers.",
-    image: Web3UIKit,
-    url: "https://web3uikit.com/",
-    github: "https://github.com/web3ui/web3uikit",
-    technologies: getSkill(["Open-Source Contribution", "react", "typescript", "css"])
-  },
-  {
-    name: "Portfolio",
-    description: "Developer portfolio showing my blockchain projects.",
-    image: Portfolio,
-    url: "https://Alpa.dev/",
-    github: "https://github.com/0xAlpa/portfolio",
-    technologies: getSkill(["react", "typescript", "html", "css", "git", "npm"])
   },
   {
     name: "Collaborative Whiteboard",
     description: "An online collaborative whiteboard app, with private and public rooms for people to chat and draw in real-time. They can also mint NFTs!",
     image: Whiteboard,
     url: "https://projects.Alpa.dev/whiteboard",
-    github: "https://github.com/0xAlpa/collaborative-canvas",
+    github: "https://github.com/Alpa8820/collaborative-canvas",
     technologies: getSkill(["react", "typescript", "nodejs", "socket.io" , "solidity"])
   },
   {
     name: "Terminal 2048",
     description: "A terminal-based implementation of the popular 2048 game, written in Rust. Playable on different grid sizes - difficulties.",
     image: TerminalGame,
-    url: "https://github.com/0xAlpa/terminal-2048",
-    github: "https://github.com/0xAlpa/terminal-2048",
+    url: "https://github.com/Alpa8820/terminal-2048",
+    github: "https://github.com/Alpa8820/terminal-2048",
     technologies: getSkill(["rust"]),
   },
   {
@@ -95,7 +79,7 @@ export const projectsEn: Project[] = [
     description: "Chat groups with limitations based on your token balances, built in Moralis 7-day challenge.",
     image: SimpleChat,
     url: "https://projects.Alpa.dev/simple-chat",
-    github: "https://github.com/0xAlpa/simple-crypto-chat",
+    github: "https://github.com/Alpa8820/simple-crypto-chat",
     technologies: getSkill(["html", "css", "javascript"])
   },
   {
@@ -103,7 +87,7 @@ export const projectsEn: Project[] = [
     description: "Multiplayer Coin Flip game using smart contracts and chainlink VRF to determine a winner in decentralized way.",
     image: Coin,
     url: "https://projects.Alpa.dev/coin-flip",
-    github: "https://github.com/0xAlpa/coin-flip",
+    github: "https://github.com/Alpa8820/coin-flip",
     technologies: getSkill(["react", "solidity", "hardhat", "typescript", "chainlink" ])
   },
   {
@@ -111,7 +95,7 @@ export const projectsEn: Project[] = [
     description: "Funny blockchain game that prevents you to panic sell your cryptos by locking them in smart contract.",
     image: Diamond,
     url: "https://projects.Alpa.dev/diamond-hands",
-    github: "https://github.com/0xAlpa/diamond-hands",
+    github: "https://github.com/Alpa8820/diamond-hands",
     technologies: getSkill(["solidity", "hardhat", "react", "javascript" ])
   },
   {
@@ -119,7 +103,7 @@ export const projectsEn: Project[] = [
     description: "Users can see all statistics about top 250 cryptos and create their own personal portfolio.",
     image: Crypto,
     url: "https://projects.Alpa.dev/crypto-tracker",
-    github: "https://github.com/0xAlpa/crypto-tracker",
+    github: "https://github.com/Alpa8820/crypto-tracker",
     technologies: getSkill(["react", "javascript" , "css", "html", "git", "npm"])
   },
   {
@@ -127,7 +111,7 @@ export const projectsEn: Project[] = [
     description: "Shows on-chain stats off user's address. User can add personal contacts for easy assets transfer.",
     image: Mobile,
     url: "",
-    github: "https://github.com/0xAlpa/mobile-wallet",
+    github: "https://github.com/Alpa8820/mobile-wallet",
     technologies: getSkill(["react native", "javascript" , "css", "npm"])
   },
   {
@@ -169,24 +153,16 @@ export const projectsSl: Project[] = [
     name: "Križci in krožci AI",
     description: "Igra križci in krožci AI v terminalu, zgrajena z Rustom. Več načinov igre, vključno z algoritmi AI, kot sta Minimax in Monte Carlo Tree Search (MCTS).",
     image: TicTacToe,
-    url: "https://github.com/0xAlpa/tic-tac-toe-ai",
-    github: "https://github.com/0xAlpa/tic-tac-toe-ai",
+    url: "https://github.com/Alpa8820/tic-tac-toe-ai",
+    github: "https://github.com/Alpa8820/tic-tac-toe-ai",
     technologies: getSkill(["rust"])
-  },
-  {
-    name: "Web3UIKit",
-    description: "Odprtokodni sodelavec za Web3UIKit – čudovite in lahke komponente uporabniškega vmesnika za razvijalce web3 aplikacij.",
-    image: Web3UIKit,
-    url: "https://web3uikit.com/",
-    github: "https://github.com/web3ui/web3uikit",
-    technologies: getSkill(["Open-Source Contribution", "react", "typescript", "css"])
   },
   {
     name: "Osebna Stran",
     description: "Osebna stran, ki prikazuje moje blockhain projekte in dosežke.",
     image: Portfolio,
     url: "https://Alpa.dev/",
-    github: "https://github.com/0xAlpa/portfolio",
+    github: "https://github.com/Alpa8820/portfolio",
     technologies: getSkill(["react", "typescript", "html", "css", "git", "npm"])
   },
   {
@@ -194,15 +170,15 @@ export const projectsSl: Project[] = [
     description: "Spletna sodelovalna aplikacija z zasebnimi ter javnimi sobami za klepet in risanje po beli tabli v realnem času. Lahko tudi minta NFT-je!",
     image: Whiteboard,
     url: "https://projects.Alpa.dev/whiteboard",
-    github: "https://github.com/0xAlpa/collaborative-canvas",
+    github: "https://github.com/Alpa8820/collaborative-canvas",
     technologies: getSkill(["react", "typescript", "nodejs", "socket.io" , "solidity"])
   },
   {
     name: "Terminal 2048",
     description: "Izvedba priljubljene igre 2048 v terminalu, napisana v Rustu. Igranje na različnih velikostih mreže - težavnosti.",
     image: TerminalGame,
-    url: "https://github.com/0xAlpa/terminal-2048",
-    github: "https://github.com/0xAlpa/terminal-2048",
+    url: "https://github.com/Alpa8820/terminal-2048",
+    github: "https://github.com/Alpa8820/terminal-2048",
     technologies: getSkill(["rust"]),
   },
   {
@@ -210,7 +186,7 @@ export const projectsSl: Project[] = [
     description: "Skupine za klepet z omejitvami na podlagi stanja uporabnikovih tokenov ('token-gating'), narejeno v 7-dnevnem Moralis izzivu.",
     image: SimpleChat,
     url: "https://projects.Alpa.dev/simple-chat",
-    github: "https://github.com/0xAlpa/simple-crypto-chat",
+    github: "https://github.com/Alpa8820/simple-crypto-chat",
     technologies: getSkill(["html", "css", "javascript" ])
   },
   {
@@ -218,7 +194,7 @@ export const projectsSl: Project[] = [
     description: "Igra met kovanca za več igralcev, ki uporablja pametne pogodbe in Chainlink VRF za določitev zmagovalca na decentraliziran način.",
     image: Coin,
     url: "https://projects.Alpa.dev/coin-flip",
-    github: "https://github.com/0xAlpa/coin-flip",
+    github: "https://github.com/Alpa8820/coin-flip",
     technologies: getSkill(["react", "solidity", "hardhat", "typescript", "chainlink" ])
   },
   {
@@ -226,7 +202,7 @@ export const projectsSl: Project[] = [
     description: "Zabaven blockchain aplikacija, ki vam prepreči panično prodajo kriptovalut tako, da jih zaklenete v pametno pogodbo.",
     image: Diamond,
     url: "https://projects.Alpa.dev/diamond-hands",
-    github: "https://github.com/0xAlpa/diamond-hands",
+    github: "https://github.com/Alpa8820/diamond-hands",
     technologies: getSkill(["solidity", "hardhat", "react", "javascript" ])
   },
   {
@@ -234,7 +210,7 @@ export const projectsSl: Project[] = [
     description: "Uporabniki si lahko ogledajo vse statistike o 250 najboljših kriptovalutah in ustvarijo svoj osebni portfelj.",
     image: Crypto,
     url: "https://projects.Alpa.dev/crypto-tracker",
-    github: "https://github.com/0xAlpa/crypto-tracker",
+    github: "https://github.com/Alpa8820/crypto-tracker",
     technologies: getSkill(["react", "javascript" , "css", "html", "git", "npm"])
   },
   {
@@ -242,7 +218,7 @@ export const projectsSl: Project[] = [
     description: "Prikazuje on-chain statistiko uporabnika. Uporabnik lahko doda osebne kontakte za enostaveno pošiljanje žetonov.",
     image: Mobile,
     url: "",
-    github: "https://github.com/0xAlpa/mobile-wallet",
+    github: "https://github.com/Alpa8820/mobile-wallet",
     technologies: getSkill(["react native", "javascript" , "css", "npm"])
   },
   {

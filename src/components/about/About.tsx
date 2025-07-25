@@ -15,6 +15,7 @@ const About = () => {
     if (width < 1250) return "6rem";
     return "8rem";
   };
+
   return (
     <>
       <div className="bg" id="about">
