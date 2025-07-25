@@ -5,7 +5,7 @@ import { BsChevronDown } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
-//import { FaDiscord } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 const About = () => {
   const { language } = useLanguage();
@@ -22,7 +22,7 @@ const About = () => {
           <div className="about-text">
             <div className="about-title">
               <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                <span className="name">Hi! 👋I am Takumi</span>
+                <span className="name">Hi! 👋I am Alpa</span>
               </Heading>
             </div>
             <div className="about-text-desc">
@@ -32,6 +32,9 @@ const About = () => {
             <div className="icons">
               <a href="https://github.com/Alpa8820" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
+              </a>
+              <a href="https://discord.gg/U5bYk8M9" target="_blank" rel="noreferrer">
+                <FaDiscord className="icon" />
               </a>
               <a href="https://t.me/Alpa8820" target="_blank" rel="noreferrer">
                 <BsTelegram className="icon" />

@@ -31,7 +31,7 @@ const Navbar = () => {
       <div>
         <div className="navbarText">
           <Heading as="h2">
-            Takumi
+            Alpa
           </Heading>
           <Text fontSize="2xl" className="name">
             BLOCKCHAIN & WEB

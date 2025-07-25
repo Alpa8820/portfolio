@@ -7,7 +7,7 @@ const Footer = () => {
 
   return(
     <div className="bg-footer">
-      <p className="footer-text">&copy; Copyright {year}, Takumi Hayase</p>
+      <p className="footer-text">&copy; Copyright {year}, Alpa</p>
     </div>
   );
 };

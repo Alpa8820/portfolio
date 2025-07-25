@@ -7,7 +7,6 @@ import Footer from "./components/footer/Footer";
 import Hackathons from "./components/hackathons/Hackathons";
 import Navbar from "./components/navbar/Navbar";
 import Terminal from "./components/terminal/Terminal";
-
 function App() {
   return (
     <>
@@ -22,5 +21,4 @@ function App() {
     </>
   );
 }
-
 export default App;

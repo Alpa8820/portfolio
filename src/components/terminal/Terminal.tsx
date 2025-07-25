@@ -80,7 +80,7 @@ const Terminal: React.FC = () => {
     while (id--) {
       clearInterval(id);
     }
-    setText1("ssh geust@takumi.dev");
+    setText1("ssh geust@Alpa.dev");
     setText3("Access Granted!");
   };
 
@@ -98,29 +98,29 @@ const Terminal: React.FC = () => {
             while (id--) {
               clearInterval(id);
             }
-            setText1("ssh geust@takumi.dev");
-            setText2("geust@takumi.dev's password:");
+            setText1("ssh geust@Alpa.dev");
+            setText2("geust@Alpa.dev's password:");
             setText3("Access Granted!");
           }
           const CommandArea = document.getElementById("command") as HTMLInputElement;
           if (CommandArea) {
             previousCommand = CommandArea.value;
             if(previousCommand.length>0) {
-              setprevusedCommand(prevArray => [...prevArray, "guest@takumi.dev:~$ " + previousCommand]);
+              setprevusedCommand(prevArray => [...prevArray, "guest@Alpa.dev:~$ " + previousCommand]);
               /*if (CommandArea.value === "github") {
-                window.open("https://github.com/0xTakumi", "_blank");
+                window.open("https://github.com/0xAlpa", "_blank");
               }
               else if (CommandArea.value === "twitter") {
-                window.open("https://Takumi.dev", "_blank");
+                window.open("https://Alpa.dev", "_blank");
               }
               else if (CommandArea.value === "telegram") {
-                window.open("https://github.com/0xTakumi/portfolio", "_blank");
+                window.open("https://github.com/0xAlpa/portfolio", "_blank");
               }
               else if (CommandArea.value === "discord") {
-                window.open("https://github.com/0xTakumi/portfolio", "_blank");
+                window.open("https://github.com/0xAlpa/portfolio", "_blank");
               }
               else if (CommandArea.value === "email") {
-                window.open("https://github.com/0xTakumi/portfolio", "_blank");
+                window.open("https://github.com/0xAlpa/portfolio", "_blank");
               }*/
               CommandArea.value = "";
             }
@@ -128,10 +128,10 @@ const Terminal: React.FC = () => {
         }
       });
 
-      Typewriter({ text: "ssh geust@takumi.dev", delay: 100, func: setText1 });
+      Typewriter({ text: "ssh geust@Alpa.dev", delay: 100, func: setText1 });
 
       setTimeout(() => {
-        setText2("geust@takumi.dev's password:▮");
+        setText2("geust@Alpa.dev's password:▮");
       }, 3000);
 
       setTimeout(() => {
@@ -139,11 +139,11 @@ const Terminal: React.FC = () => {
       }, 4300);
 
       setTimeout(() => {
-        setText3("Connecting to geust@takumi.dev...");
+        setText3("Connecting to geust@Alpa.dev...");
       }, 4300);
 
       setTimeout(() => {
-        setText2("geust@takumi.dev's password:");
+        setText2("geust@Alpa.dev's password:");
         setText3("> Access granted.");
       }, 7300);
     }
@@ -193,7 +193,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Discord: <a href="https://discord.com/users/775249998379614238" rel="noreferrer" target="_blank">Takumi.dev ↗</a></li>
+                        <li key={index} className="mcq-option">My Discord: <a href="https://discord.gg/U5bYk8M9" rel="noreferrer" target="_blank">Alpa.dev ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -204,7 +204,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Github: <a href="https://github.com/0xTakumi" rel="noreferrer" target="_blank">@0xTakumi ↗</a></li>
+                        <li key={index} className="mcq-option">My Github: <a href="https://github.com/0xAlpa" rel="noreferrer" target="_blank">@0xAlpa ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -226,7 +226,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Twitter: <a href="https://twitter.com/0xTakumi" rel="noreferrer" target="_blank">@0xTakumi  ↗</a></li>
+                        <li key={index} className="mcq-option">My Twitter: <a href="https://twitter.com/0xAlpa" rel="noreferrer" target="_blank">@0xAlpa  ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -237,7 +237,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Telegram: <a href="https://t.me/TakumiWeb3" rel="noreferrer" target="_blank">@TakumiWeb3  ↗</a></li>
+                        <li key={index} className="mcq-option">My Telegram: <a href="https://t.me/AlpaWeb3" rel="noreferrer" target="_blank">@AlpaWeb3  ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -249,11 +249,11 @@ const Terminal: React.FC = () => {
                       <label htmlFor="mcq">Click on link to open it:</label>
                       <div className="mcq-wrapper"><br></br>
                         <ul id="mcq" className="mcq">
-                          <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi" target='_blank' rel="noreferrer">My Github: @0xTakumi ↗</a></li>
+                          <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa" target='_blank' rel="noreferrer">My Github: @0xAlpa ↗</a></li>
                           <li className="mcq-option" tabIndex={1}><a href="mailto:alpa26846@gmail.com" target='_blank' rel="noreferrer">My Email: alpa26846@gmail.com↗</a></li>
-                          <li className="mcq-option" tabIndex={2}><a href="https://twitter.com/0xTakumi" target='_blank' rel="noreferrer">My Twitter: @0xTakumi ↗</a></li>
-                          <li className="mcq-option" tabIndex={3}><a href="https://t.me/TakumiWeb3" target='_blank' rel="noreferrer">My Telegram: @TakumiWeb3 ↗</a></li>
-                          <li className="mcq-option" tabIndex={4}><a href="https://discord.com/users/775249998379614238" target='_blank' rel="noreferrer">My Discord: Takumi.dev ↗</a></li>
+                          <li className="mcq-option" tabIndex={2}><a href="https://twitter.com/0xAlpa" target='_blank' rel="noreferrer">My Twitter: @0xAlpa ↗</a></li>
+                          <li className="mcq-option" tabIndex={3}><a href="https://t.me/AlpaWeb3" target='_blank' rel="noreferrer">My Telegram: @AlpaWeb3 ↗</a></li>
+                          <li className="mcq-option" tabIndex={4}><a href="https://discord.gg/U5bYk8M9" target='_blank' rel="noreferrer">My Discord: Alpa_love ↗</a></li>
                         </ul>
                       </div><br />
                     </div>
@@ -283,7 +283,7 @@ const Terminal: React.FC = () => {
                     Create your own personalized Gift Cards as NFTs and lock some cryptos into them. Surprise your friends and family! To not forget any important events users can also schedule gift card transfers. Applications has a template store - a gift card library that can be sent with just a few clicks.
                       <br></br><br></br>
                       <li className="mcq-option" tabIndex={0}><a href="https://moralis.io/filecoin-hackathon/" target='_blank' rel="noreferrer">Hackathon Website ↗</a></li>  
-                      <li className="mcq-option" tabIndex={0}><a href="https://cardix.Takumi.dev" target='_blank' rel="noreferrer">Cardix Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://cardix.Alpa.dev" target='_blank' rel="noreferrer">Cardix Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -294,7 +294,7 @@ const Terminal: React.FC = () => {
                       <br></br><br></br>
                     Complete copy of Stripe, but for cryptocurrencies. The most customizable solution for receiving automated recurring payments in cryptocurrencies. APIs, webhooks, plugins, BananaPay has it all.<br></br><br></br>
                       <li className="mcq-option" tabIndex={0}><a href="https://moralis.io/google-hackathon/" target='_blank' rel="noreferrer">Hackathon Website ↗</a></li>  
-                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Takumi.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Alpa.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -305,7 +305,7 @@ const Terminal: React.FC = () => {
                       <br></br><br></br>
                     Complete copy of Stripe, but for cryptocurrencies. The most customizable solution for receiving automated recurring payments in cryptocurrencies. APIs, webhooks, plugins, BananaPay has it all.<br></br><br></br>
                       <li className="mcq-option" tabIndex={0}><a href="https://chainlinkfall2022.devpost.com/" target='_blank' rel="noreferrer">Hackathon Website ↗</a></li>  
-                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Takumi.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Alpa.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -316,17 +316,17 @@ const Terminal: React.FC = () => {
                       <label htmlFor="mcq">Projects:</label>
                       <div className="mcq-wrapper"><br></br>
                         <ul id="mcq" className="mcq">
-                          <li className="mcq-option" tabIndex={0}><a href="https://cardix.Takumi.dev/" target='_blank' rel="noreferrer">1. Cardix ↗</a></li>
-                          <li className="mcq-option" tabIndex={1}><a href="https://bananapay.Takumi.dev/" target='_blank' rel="noreferrer">2. BananaPay ↗</a></li>
-                          <li className="mcq-option" tabIndex={2}><a href="https://bullfolio.Takumi.dev/" target='_blank' rel="noreferrer">3. BullFolio ↗</a></li>
+                          <li className="mcq-option" tabIndex={0}><a href="https://cardix.Alpa.dev/" target='_blank' rel="noreferrer">1. Cardix ↗</a></li>
+                          <li className="mcq-option" tabIndex={1}><a href="https://bananapay.Alpa.dev/" target='_blank' rel="noreferrer">2. BananaPay ↗</a></li>
+                          <li className="mcq-option" tabIndex={2}><a href="https://bullfolio.Alpa.dev/" target='_blank' rel="noreferrer">3. BullFolio ↗</a></li>
                           <li className="mcq-option" tabIndex={3}><a href="https://github.com/web3ui/web3uikit" target='_blank' rel="noreferrer">4. Web3UIKit ↗</a></li>
-                          <li className="mcq-option" tabIndex={4}><a href="https://Takumi.dev" target='_blank' rel="noreferrer">5. Portfolio ↗</a></li>
-                          <li className="mcq-option" tabIndex={5}><a href="https://projects.Takumi.dev/whiteboard" target='_blank' rel="noreferrer">6. Collaborative Whiteboard ↗</a></li>
-                          <li className="mcq-option" tabIndex={6}><a href="https://projects.Takumi.dev/simple-chat" target='_blank' rel="noreferrer">7. Token-Gated Chat ↗</a></li>
-                          <li className="mcq-option" tabIndex={7}><a href="https://projects.Takumi.dev/coin-flip" target='_blank' rel="noreferrer">8. CoinFlip ↗</a></li>
-                          <li className="mcq-option" tabIndex={8}><a href="https://projects.Takumi.dev/diamond-hands" target='_blank' rel="noreferrer">9. Diamond Hands ↗</a></li>
-                          <li className="mcq-option" tabIndex={9}><a href="https://projects.Takumi.dev/crypto-tracker" target='_blank' rel="noreferrer">10. Crypto Tracker ↗</a></li>
-                          <li className="mcq-option" tabIndex={10}><a href="https://github.com/0xTakumi/mobile-wallet" target='_blank' rel="noreferrer">11. Mobile Wallet ↗</a></li>
+                          <li className="mcq-option" tabIndex={4}><a href="https://Alpa.dev" target='_blank' rel="noreferrer">5. Portfolio ↗</a></li>
+                          <li className="mcq-option" tabIndex={5}><a href="https://projects.Alpa.dev/whiteboard" target='_blank' rel="noreferrer">6. Collaborative Whiteboard ↗</a></li>
+                          <li className="mcq-option" tabIndex={6}><a href="https://projects.Alpa.dev/simple-chat" target='_blank' rel="noreferrer">7. Token-Gated Chat ↗</a></li>
+                          <li className="mcq-option" tabIndex={7}><a href="https://projects.Alpa.dev/coin-flip" target='_blank' rel="noreferrer">8. CoinFlip ↗</a></li>
+                          <li className="mcq-option" tabIndex={8}><a href="https://projects.Alpa.dev/diamond-hands" target='_blank' rel="noreferrer">9. Diamond Hands ↗</a></li>
+                          <li className="mcq-option" tabIndex={9}><a href="https://projects.Alpa.dev/crypto-tracker" target='_blank' rel="noreferrer">10. Crypto Tracker ↗</a></li>
+                          <li className="mcq-option" tabIndex={10}><a href="https://github.com/0xAlpa/mobile-wallet" target='_blank' rel="noreferrer">11. Mobile Wallet ↗</a></li>
                           <li className="mcq-option" tabIndex={11}><a href="https://bananapay-v1.tijna.dev" target='_blank' rel="noreferrer">12. BananaPayV1 ↗</a></li>
                         </ul>
                       </div><br />
@@ -343,7 +343,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, Chainlink, Solidity, CSS
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://cardix.Takumi.dev" target='_blank' rel="noreferrer">Cardix Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://cardix.Alpa.dev" target='_blank' rel="noreferrer">Cardix Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -356,7 +356,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, Chainlink, Solidity, CSS, Firebase
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Takumi.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay.Alpa.dev" target='_blank' rel="noreferrer">BananaPay Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -369,7 +369,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, Solidity, CSS, Firebase
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://bullfolio.Takumi.dev" target='_blank' rel="noreferrer">BullFolio Website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://bullfolio.Alpa.dev" target='_blank' rel="noreferrer">BullFolio Website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -395,7 +395,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, CSS
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://Takumi.dev" target='_blank' rel="noreferrer">Portfolio (this website) ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://Alpa.dev" target='_blank' rel="noreferrer">Portfolio (this website) ↗</a></li><br />
                     </div>
                   );
                 }
@@ -408,7 +408,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, CSS, NodeJS, Socket.io
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/collaborative-canvas" target='_blank' rel="noreferrer">Collaborative Whiteboard Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/collaborative-canvas" target='_blank' rel="noreferrer">Collaborative Whiteboard Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -421,7 +421,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: HTML, JavaScript, CSS
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/simple-crypto-chat" target='_blank' rel="noreferrer">Token-Gated Chat Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/simple-crypto-chat" target='_blank' rel="noreferrer">Token-Gated Chat Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -434,7 +434,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, Solidity, Chainlink, TypeScript, Hardhat
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/coin-flip" target='_blank' rel="noreferrer">Coin Flip Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/coin-flip" target='_blank' rel="noreferrer">Coin Flip Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -447,7 +447,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, Solidity, TypeScript, Hardhat
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/diamond-hands" target='_blank' rel="noreferrer">Diamond Hands Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/diamond-hands" target='_blank' rel="noreferrer">Diamond Hands Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -460,7 +460,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, CSS, JavaScript
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/crypto-tracker" target='_blank' rel="noreferrer">Crypto Tracker Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/crypto-tracker" target='_blank' rel="noreferrer">Crypto Tracker Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -473,7 +473,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: ReactNative, CSS, JavaScript
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xTakumi/mobile-wallet" target='_blank' rel="noreferrer">Mobile Wallet Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/mobile-wallet" target='_blank' rel="noreferrer">Mobile Wallet Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -486,7 +486,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, Solidity, Chainlink, Hardhat, CSS
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay-v1.Takumi.dev/" target='_blank' rel="noreferrer">BananaPayV1 website ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://bananapay-v1.Alpa.dev/" target='_blank' rel="noreferrer">BananaPayV1 website ↗</a></li><br />
                     </div>
                   );
                 }
@@ -499,7 +499,7 @@ const Terminal: React.FC = () => {
                     <div>
                       <li className="userPrefix" key={index}>{item}</li>
                       <div className='aboutme'><br></br>
-                      Hi, nice to meet you. I'm Takumi, blockchain and web developer from Japan.
+                      Hi, nice to meet you. I'm Alpa, blockchain and web developer from Japan.
                         <br></br><br></br>
                           I started programming when I was 13 and have been programming ever since. I received my Master's degree in Computer Science from Mapua University from March 2012 to June 2017. I started working as a developer at Tech Solution in August 2017, and that's when I got interested in cryptocurrencies. I have a great passion for the blockchain industry and believe that it has the potential to change the world for the better. After learning how blockchain and cryptocurrencies work, I started learning related technologies and participating in hackathons. I won three hackathons in less than a year. I also participated in the development of an open source Web3 UI library (Web3UIKit). I am currently focusing on personal projects.
                         <br></br><br></br>
@@ -510,13 +510,13 @@ const Terminal: React.FC = () => {
                   return (
                     <div>
                       <li className="userPrefix" key={index}>{item}</li>
-                    bash: {item.replace("guest@takumi.dev:~$", "")}: command not found<br /><br />
+                    bash: {item.replace("guest@Alpa.dev:~$", "")}: command not found<br /><br />
                     </div>
                   );
                 }
               })}
             </ul>
-            {Text3.includes("Access") ? <span className='commands'><span className='userPrefix'>guest@takumi.dev:~$</span> <input type="text" id="command" name="command" autoFocus></input></span> : ""}
+            {Text3.includes("Access") ? <span className='commands'><span className='userPrefix'>guest@Alpa.dev:~$</span> <input type="text" id="command" name="command" autoFocus></input></span> : ""}
           </div>
         ):(
           <Button size='lg' onClick={() => setStart(true)} colorScheme="blue" variant='solid' className="terminal-btn">

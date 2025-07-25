@@ -26,13 +26,13 @@ export const contacts: Contact[] = [
   },
   {
     name: "DISCORD:",
-    info: "Takumi#6804",
+    info: "Alpa#6804",
     icon: <FaDiscord className="contact-icon" />,
-    url: "https://discord.com/users/775249998379614238",
+    url: "https://discord.gg/U5bYk8M9",
   },
   {
     name: "GitHub:",
-    info: "@Takumi",
+    info: "@Alpa",
     icon: <AiFillGithub className="contact-icon" />,
     url: "https://github.com/Alpa8820",
   },
