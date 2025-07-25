@@ -26,13 +26,13 @@ export const contacts: Contact[] = [
   },
   {
     name: "DISCORD:",
-    info: "Alpa#6804",
+    info: "AlpaCoin",
     icon: <FaDiscord className="contact-icon" />,
     url: "https://discord.gg/U5bYk8M9",
   },
   {
     name: "GitHub:",
-    info: "@Alpa",
+    info: "@Alpa8820",
     icon: <AiFillGithub className="contact-icon" />,
     url: "https://github.com/Alpa8820",
   },
@@ -40,7 +40,7 @@ export const contacts: Contact[] = [
     name: "LOCATION & ZONE:",
     info: "Japan, UTC+9",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/Japan",
+    url: "https://www.google.com.hk/search?q=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%BE%B3%E5%B3%B6%E5%B8%82%E6%B2%96%E6%B5%9C%E6%9D%B13%E4%B8%81%E7%9B%AE21%E7%95%AA%E5%9C%B0&oq=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E5%BE%B3%E5%B3%B6%E5%B8%82%E6%B2%96%E6%B5%9C%E6%9D%B13%E4%B8%81%E7%9B%AE21%E7%95%AA%E5%9C%B0&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg70gEHNTMzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
   },
 ];
 
