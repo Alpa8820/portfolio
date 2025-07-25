@@ -108,19 +108,19 @@ const Terminal: React.FC = () => {
             if(previousCommand.length>0) {
               setprevusedCommand(prevArray => [...prevArray, "guest@Alpa.dev:~$ " + previousCommand]);
               /*if (CommandArea.value === "github") {
-                window.open("https://github.com/0xAlpa", "_blank");
+                window.open("https://github.com/Alpa8820", "_blank");
               }
               else if (CommandArea.value === "twitter") {
                 window.open("https://Alpa.dev", "_blank");
               }
               else if (CommandArea.value === "telegram") {
-                window.open("https://github.com/0xAlpa/portfolio", "_blank");
+                window.open("https://github.com/Alpa8820/portfolio", "_blank");
               }
               else if (CommandArea.value === "discord") {
-                window.open("https://github.com/0xAlpa/portfolio", "_blank");
+                window.open("https://github.com/Alpa8820/portfolio", "_blank");
               }
               else if (CommandArea.value === "email") {
-                window.open("https://github.com/0xAlpa/portfolio", "_blank");
+                window.open("https://github.com/Alpa8820/portfolio", "_blank");
               }*/
               CommandArea.value = "";
             }
@@ -204,7 +204,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Github: <a href="https://github.com/0xAlpa" rel="noreferrer" target="_blank">@0xAlpa ↗</a></li>
+                        <li key={index} className="mcq-option">My Github: <a href="https://github.com/Alpa8820" rel="noreferrer" target="_blank">@Alpa8820 ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -226,7 +226,7 @@ const Terminal: React.FC = () => {
                     <div  className="mcq-wrapper">
                       <li className="userPrefix" key={index}>{item}</li>
                       <ul id="mcq" className="mcq">
-                        <li key={index} className="mcq-option">My Twitter: <a href="https://twitter.com/0xAlpa" rel="noreferrer" target="_blank">@0xAlpa  ↗</a></li>
+                        <li key={index} className="mcq-option">My Twitter: <a href="https://twitter.com/Alpa8820" rel="noreferrer" target="_blank">@Alpa8820  ↗</a></li>
                       </ul>
                       <br />
                     </div>
@@ -249,9 +249,9 @@ const Terminal: React.FC = () => {
                       <label htmlFor="mcq">Click on link to open it:</label>
                       <div className="mcq-wrapper"><br></br>
                         <ul id="mcq" className="mcq">
-                          <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa" target='_blank' rel="noreferrer">My Github: @0xAlpa ↗</a></li>
+                          <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820" target='_blank' rel="noreferrer">My Github: @Alpa8820 ↗</a></li>
                           <li className="mcq-option" tabIndex={1}><a href="mailto:alpa26846@gmail.com" target='_blank' rel="noreferrer">My Email: alpa26846@gmail.com↗</a></li>
-                          <li className="mcq-option" tabIndex={2}><a href="https://twitter.com/0xAlpa" target='_blank' rel="noreferrer">My Twitter: @0xAlpa ↗</a></li>
+                          <li className="mcq-option" tabIndex={2}><a href="https://twitter.com/Alpa8820" target='_blank' rel="noreferrer">My Twitter: @Alpa8820 ↗</a></li>
                           <li className="mcq-option" tabIndex={3}><a href="https://t.me/AlpaWeb3" target='_blank' rel="noreferrer">My Telegram: @AlpaWeb3 ↗</a></li>
                           <li className="mcq-option" tabIndex={4}><a href="https://discord.gg/U5bYk8M9" target='_blank' rel="noreferrer">My Discord: Alpa_love ↗</a></li>
                         </ul>
@@ -326,7 +326,7 @@ const Terminal: React.FC = () => {
                           <li className="mcq-option" tabIndex={7}><a href="https://projects.Alpa.dev/coin-flip" target='_blank' rel="noreferrer">8. CoinFlip ↗</a></li>
                           <li className="mcq-option" tabIndex={8}><a href="https://projects.Alpa.dev/diamond-hands" target='_blank' rel="noreferrer">9. Diamond Hands ↗</a></li>
                           <li className="mcq-option" tabIndex={9}><a href="https://projects.Alpa.dev/crypto-tracker" target='_blank' rel="noreferrer">10. Crypto Tracker ↗</a></li>
-                          <li className="mcq-option" tabIndex={10}><a href="https://github.com/0xAlpa/mobile-wallet" target='_blank' rel="noreferrer">11. Mobile Wallet ↗</a></li>
+                          <li className="mcq-option" tabIndex={10}><a href="https://github.com/Alpa8820/mobile-wallet" target='_blank' rel="noreferrer">11. Mobile Wallet ↗</a></li>
                           <li className="mcq-option" tabIndex={11}><a href="https://bananapay-v1.tijna.dev" target='_blank' rel="noreferrer">12. BananaPayV1 ↗</a></li>
                         </ul>
                       </div><br />
@@ -408,7 +408,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, TypeScript, CSS, NodeJS, Socket.io
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/collaborative-canvas" target='_blank' rel="noreferrer">Collaborative Whiteboard Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/collaborative-canvas" target='_blank' rel="noreferrer">Collaborative Whiteboard Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -421,7 +421,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: HTML, JavaScript, CSS
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/simple-crypto-chat" target='_blank' rel="noreferrer">Token-Gated Chat Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/simple-crypto-chat" target='_blank' rel="noreferrer">Token-Gated Chat Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -434,7 +434,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, Solidity, Chainlink, TypeScript, Hardhat
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/coin-flip" target='_blank' rel="noreferrer">Coin Flip Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/coin-flip" target='_blank' rel="noreferrer">Coin Flip Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -447,7 +447,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, Solidity, TypeScript, Hardhat
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/diamond-hands" target='_blank' rel="noreferrer">Diamond Hands Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/diamond-hands" target='_blank' rel="noreferrer">Diamond Hands Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -460,7 +460,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: React, CSS, JavaScript
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/crypto-tracker" target='_blank' rel="noreferrer">Crypto Tracker Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/crypto-tracker" target='_blank' rel="noreferrer">Crypto Tracker Github ↗</a></li><br />
                     </div>
                   );
                 }
@@ -473,7 +473,7 @@ const Terminal: React.FC = () => {
                       <br /><br />  
                     Techstack: ReactNative, CSS, JavaScript
                       <br /><br />
-                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/0xAlpa/mobile-wallet" target='_blank' rel="noreferrer">Mobile Wallet Github ↗</a></li><br />
+                      <li className="mcq-option" tabIndex={0}><a href="https://github.com/Alpa8820/mobile-wallet" target='_blank' rel="noreferrer">Mobile Wallet Github ↗</a></li><br />
                     </div>
                   );
                 }

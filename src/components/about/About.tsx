@@ -34,7 +34,7 @@ const About = () => {
         <div className="alert">
           <Heading as="h3" size={getAlertSize()}>
             💻{"   "}<a href="mailto:alpa26846@gmail.com" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xAlpa" className="contact-link">Follow Me!</a>
+            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/Alpa8820" className="contact-link">Follow Me!</a>
           </Heading>
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
