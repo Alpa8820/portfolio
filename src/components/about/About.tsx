@@ -1,49 +1,20 @@
 import React from "react";
 import { Heading, Text, Button } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
-import { BsTelegram, BsChevronDown } from "react-icons/bs";
+import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
+import { BsChevronDown } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
 import { FaDiscord } from "react-icons/fa";
 
 const About = () => {
-
-  // const [isVisible, setIsVisible] = useState<boolean>(true);
-
   const { language } = useLanguage();
-
-  // const hide = () => setIsVisible(false);
-
   const getFontSize = () => {
     const width = window.innerWidth;
     if (width < 450) return "5rem";
     if (width < 1250) return "6rem";
     return "8rem";
   };
-
-  /*const getAlertSize = () => {
-    const width = window.innerWidth;
-    if(width < 1275) return "md";
-    return "lg";
-  };
-
-  const Alert = () => {
-    if(isVisible) {
-      return(
-        <div className="alert">
-          <Heading as="h3" size={getAlertSize()}>
-            💻{"   "}<a href="mailto:alpa26846@gmail.com" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xAlpa" className="contact-link">Follow Me!</a>
-          </Heading>
-          <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
-        </div>
-      );
-    }else{
-      return null;
-    }
-  };*/
-
   return (
     <>
       <div className="bg" id="about">

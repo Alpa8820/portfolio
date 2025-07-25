@@ -2,15 +2,15 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Heading, Text } from "@chakra-ui/react";
-import English from "../../images/english.png";
-import Japann from "../../images/slovenscina.svg";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineMail } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
+// import English from "../../images/english.png";
+// import Japann from "../../images/slovenscina.svg";
+import { AiOutlineMail } from "react-icons/ai";
+// import { BsTelegram } from "react-icons/bs";
 import { useLanguage } from "../../contexts/LanguageContext";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
-  const { language } = useLanguage();
+  // const { language } = useLanguage();
   const handleScroll = () => {
     if (window.scrollY > window.innerHeight*0.4) {
       setShowNavbar(true);
