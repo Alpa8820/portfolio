@@ -34,7 +34,7 @@ const About = () => {
         <div className="alert">
           <Heading as="h3" size={getAlertSize()}>
             💻{"   "}<a href="mailto:alpa26846@gmail.com" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xTakumi" className="contact-link">Follow Me!</a>
+            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xAlpa" className="contact-link">Follow Me!</a>
           </Heading>
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
@@ -51,7 +51,7 @@ const About = () => {
           <div className="about-text">
             <div className="about-title">
               <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                <span className="name">Hi! 👋I am Takumi</span>
+                <span className="name">Hi! 👋I am Alpa</span>
               </Heading>
             </div>
             <div className="about-text-desc">
@@ -62,7 +62,7 @@ const About = () => {
               <a href="https://github.com/Alpa8820" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
-              <a href="https://twitter.com/Alpa8820" target="_blank" rel="noreferrer">
+              <a href="https://discord.gg/U5bYk8M9" target="_blank" rel="noreferrer">
                 <FaDiscord className="icon" />
               </a>
               <a href="https://t.me/Alpa8820" target="_blank" rel="noreferrer">
