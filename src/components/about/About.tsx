@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading, Text, Button } from "@chakra-ui/react";
 import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
-import { BsChevronDown } from "react-icons/bs";
+import { BsChevronDown, BsTelegram } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { text } from "../../helpers/text";
