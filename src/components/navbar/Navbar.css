@@ -38,7 +38,9 @@
   margin-right: 20px !important;
   margin-bottom: 0 !important;
 }
-
+.title_span{
+  font-weight: 200;
+}
 @media only screen and (max-width: 775px) {
   .navbarText {
     margin-top: -10px;
