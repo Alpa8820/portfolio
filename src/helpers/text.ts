@@ -67,9 +67,9 @@ export const text = {
     contactHeading: "Kontaktiraj Me",
 
     // about page
-    aboutHi: "Živjo! 👋",
-    aboutIam: "Sem ",
-    aboutSkilled: "izkušen",
+    aboutHi: "! 👋",
+    aboutIam: " ",
+    aboutSkilled: "",
     aboutText: "iz Slovenije s +3 leti izkušenj na področju razvoja blockchain in spletnih tehnologij.",
 
     // others
